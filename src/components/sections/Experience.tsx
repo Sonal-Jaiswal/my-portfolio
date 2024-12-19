@@ -10,14 +10,14 @@ const Experience: React.FC = () => {
             <div className="flex justify-between items-start mb-4">
               <div>
                 <h3 className="text-xl font-bold text-green-400">Systems Developer</h3>
-                <p className="text-gray-400">Google Developer Student Club KIIT</p>
+                <p className="text-gray-400">Google Developer Groups KIIT</p>
               </div>
               <span className="text-sm text-gray-500">January 2024 – Present</span>
             </div>
             <ul className="list-disc list-inside text-gray-400 space-y-2">
-              <li>Leading technical initiatives and project development</li>
+              <li>Build Scalable Systems: Develop and maintain backend systems and APIs</li>
               <li>Collaborating with team members on innovative solutions</li>
-              <li>Mentoring junior developers and conducting workshops</li>
+              <li>Optimize Performance: Ensure systems are secure, efficient, and up-to-date with modern technologies.</li>
             </ul>
           </div>
 
