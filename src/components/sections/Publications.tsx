@@ -27,10 +27,29 @@ const Publications: React.FC = () => {
                       Contributed to groundbreaking research in super-heavy element synthesis, focusing on titanium-induced reactions.
                     </p>
                   </div>
+                  <div>
+                    <h4 className="font-bold mb-2">"Fusion cross-section analysis for SHE Z =120"</h4>
+                    <p className="text-gray-400">
+                    Explored the synthesis of super-heavy elements with atomic number Z=120 using the 45Sc + 252Es projectile-target system. Key findings include fusion cross-section increases with excitation energy, survival probability trends, and the identification of 45Sc + 252Es as favorable for SHE Z=120 synthesis.
+                    <a href="https://sympnp.org/proceedings/68/B67.pdf">view on DAE proceedings</a>
+                    </p>
+                  </div>
+
                 </div>
                 <div className="mt-4">
                   <a 
-                    href="https://scholar.google.com/citations?user=YOUR_ID" 
+                    href="https://sympnp.org/proceedings/68/B67.pdf" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-green-400 hover:text-green-500 transition-colors inline-flex items-center gap-2"
+                  >
+                    View on DAE symposium
+                    <BookOpen className="w-4 h-4" />
+                  </a>
+                </div>
+                <div className="mt-4">
+                  <a 
+                    href="https://scholar.google.co.in/citations?user=kRTSVOMAAAAJ&hl=en" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-green-400 hover:text-green-500 transition-colors inline-flex items-center gap-2"
