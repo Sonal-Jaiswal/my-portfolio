@@ -5,6 +5,7 @@ import About from './components/sections/About';
 import Skills from './components/sections/Skills';
 import Experience from './components/sections/Experience';
 import Publications from './components/sections/Publications';
+import Certifications from './components/sections/Certifications';
 import Contact from './components/sections/Contact';
 
 const App: React.FC = () => {
@@ -15,7 +16,8 @@ const App: React.FC = () => {
       <Skills />
       <Experience />
       <Publications />
-      <Contact />
+      <Certifications />
+      <Contact />      
     </Layout>
   );
 };

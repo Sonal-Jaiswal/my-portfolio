@@ -29,6 +29,7 @@ const Contact: React.FC = () => {
       } else {
         setSubmitStatus('error');
       }
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       setSubmitStatus('error');
     } finally {
