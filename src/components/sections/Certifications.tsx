@@ -17,23 +17,32 @@ const Certifications: React.FC = () => {
 
   return (
     <section id="publications" className="py-20 bg-black/30">
-      <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold mb-8">Certifications</h2>
-        <div className="space-y-8">
+      <div className="container mx-auto px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center sm:text-left">
+          Certifications
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {/* Certification Badge 1 */}
           <div className="border border-green-500/20 rounded-lg p-6 hover:bg-green-500/5 transition-colors">
-            <div className="flex items-start gap-4">
-              <BookOpen className="w-6 h-6 text-green-400 flex-shrink-0 mt-1" />
-              {/* Embedded certification badges */}
-              <div 
-                data-iframe-width="150" 
-                data-iframe-height="270" 
-                data-share-badge-id="f8f73e2f-ac40-464a-8b61-c7920c1cb193" 
+            <div className="flex flex-col items-center sm:items-start gap-4">
+              <BookOpen className="w-6 h-6 text-green-400 flex-shrink-0" />
+              <div
+                data-iframe-width="150"
+                data-iframe-height="270"
+                data-share-badge-id="f8f73e2f-ac40-464a-8b61-c7920c1cb193"
                 data-share-badge-host="https://www.credly.com"
               ></div>
-              <div 
-                data-iframe-width="150" 
-                data-iframe-height="270" 
-                data-share-badge-id="a826a2a6-6907-4b46-91d9-c59367e9fde2" 
+            </div>
+          </div>
+
+          {/* Certification Badge 2 */}
+          <div className="border border-green-500/20 rounded-lg p-6 hover:bg-green-500/5 transition-colors">
+            <div className="flex flex-col items-center sm:items-start gap-4">
+              <BookOpen className="w-6 h-6 text-green-400 flex-shrink-0" />
+              <div
+                data-iframe-width="150"
+                data-iframe-height="270"
+                data-share-badge-id="a826a2a6-6907-4b46-91d9-c59367e9fde2"
                 data-share-badge-host="https://www.credly.com"
               ></div>
             </div>
